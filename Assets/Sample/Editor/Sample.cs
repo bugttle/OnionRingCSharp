@@ -21,7 +21,7 @@ public class Sample : MonoBehaviour
         // OnionRingでの処理開始
         var border = OnionRing.Run(before, after);
 
-        // 実行結果のborderを出力: [497,1,152,867]
+        // 実行結果のborderを出力: => [312,1,95,543]
         Debug.Log(border.ToString());
 
         // 出来上がった画像のアセットをリロード
